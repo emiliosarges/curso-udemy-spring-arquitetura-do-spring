@@ -23,12 +23,12 @@ public class Application {
 		builder.run(args);
 		
 		//contexto da aplicação já iniciada
-		ConfigurableApplicationContext applicationContext = builder.context();
-		var produtoRepository = applicationContext.getBean("produtoRepository");
+//		ConfigurableApplicationContext applicationContext = builder.context();
+//		var produtoRepository = applicationContext.getBean("produtoRepository");
 		
-		ConfigurableEnvironment environmnet = applicationContext.getEnvironment();
-		String applicationName = environmnet.getProperty("spring.application.name");
-		System.out.println("Noma da aplicação é: " + applicationName);
+//		ConfigurableEnvironment environmnet = applicationContext.getEnvironment();
+//		String applicationName = environmnet.getProperty("spring.application.name");
+//		System.out.println("Noma da aplicação é: " + applicationName);
 		
 	}
 }
